@@ -3,6 +3,8 @@ import './App.css';
 
 import MyContract from '../../build/contracts/Migrations.json';
 
+// instatiate web3 + contract instance
+
 function App() {
   return (
     <div className="App">
@@ -14,7 +16,7 @@ function App() {
         <a
           className="App-link"
           href="https://reactjs.org"
-          target="_blank"
+          target= "_blank"
           rel="noopener noreferrer"
         >
           Learn React
